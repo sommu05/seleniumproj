@@ -1,0 +1,13 @@
+
+<suite name="Suite">
+<listeners>
+<listener class-name="extentReports.ExtentReportManager"/>
+</listeners>
+<test thread-count="5" name="Test">
+<classes>
+<class name="day38.NopCommerceTests"/>
+</classes>
+</test>
+<!--  Test  -->
+</suite>
+<!--  Suite  -->
